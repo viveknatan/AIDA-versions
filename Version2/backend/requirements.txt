@@ -1,0 +1,13 @@
+Flask
+Flask-CORS
+pandas
+psycopg2-binary
+python-dotenv
+openai
+tiktoken
+numpy
+scikit-learn
+langchain
+langchain-openai
+SQLAlchemy
+pytest 

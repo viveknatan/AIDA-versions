@@ -1,0 +1,18 @@
+# AI Data Analyst Configuration Template
+# Copy this to .env and update with your actual values
+
+# NeonDB Connection URL - Replace with your actual NeonDB connection string
+# Format: postgresql://username:password@host:port/database_name
+# Example: postgresql://username:password@ep-cool-forest-123456.us-east-2.aws.neon.tech/your_database_name
+NEON_DATABASE_URL=postgresql://your_username:your_password@your_neon_host.neon.tech/your_database_name
+
+# OpenAI API Key for LLM functionality
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Debug mode (optional)
+DEBUG=false
+
+# LangChain Tracing Configuration
+LANGCHAIN_TRACING_V2=true
+LANGSMITH_API_KEY=your_langsmith_api_key_here
+LANGCHAIN_PROJECT=ai-data-analyst 
